@@ -19,12 +19,58 @@ html {
 /****************************************
   Defaults
 *****************************************/
+h1 {
+  margin: 0; }
+
 /****************************************
   Helpers
 *****************************************/
 /****************************************
   Layout
 *****************************************/
+.page {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.container > * {
+  width: 50%; }
+
+main {
+  margin-left: 60px;
+  background-color: yellow; }
+
+.breadcrumb {
+  text-transform: uppercase;
+  margin: 20px 0; }
+
+.price {
+  color: #d71c37;
+  font-size: 6em;
+  font-weight: 700; }
+
+.viewed-item {
+  color: #333748; }
+
+.brand-shop {
+  font-size: .85em;
+  color: #333748;
+  text-transform: uppercase; }
+  .brand-shop a {
+    border-bottom: 1px solid #ced0d6;
+    text-decoration: none; }
+
+.item-description {
+  margin: 20px 0; }
+
+.item-options {
+  font-weight: 700; }
+
 /****************************************
   Components
 *****************************************/

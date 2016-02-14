@@ -25,6 +25,10 @@ html {
   Defaults
 *****************************************/
 
+h1 {
+  margin: 0
+}
+
 
 /****************************************
   Helpers
@@ -35,7 +39,57 @@ html {
   Layout
 *****************************************/
 
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.container {
+  display: flex;
+}
+
+.container > * {
+  width: 50%;
+}
+
+main {
+  margin-left: 60px;
+  background-color: yellow;
+}
+
+.breadcrumb {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.price {
+  color: $crimson;
+  font-size: 6em;
+  font-weight: 700; 
+}
+
+.viewed-item {
+  color: $bright-gray;
+}
+
+.brand-shop {
+  font-size: .85em;
+  color: $bright-gray;
+  text-transform: uppercase;
+
+  a {
+    border-bottom: 1px solid #ced0d6;
+    text-decoration: none;
+  }
+}
+
+.item-description {
+  margin: 20px 0;
+}
+
+.item-options {
+  font-weight: 700;
+}
 
 
 /****************************************
